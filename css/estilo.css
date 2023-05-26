@@ -228,3 +228,54 @@ header{
 	text-align: justify;
 	position: absolute
 }
+.img7{
+	position: absolute;
+	width: 910px;
+	height: 420px;
+	margin: 3450px 457px;
+}
+.sub7{
+	position: absolute;
+	width: 247px;
+	height: 40px;
+	color: black;
+	font-family: 'Inter', sans-serif;
+	font-family: 'Playfair Display', serif;
+	font-size: 30px;
+	margin: 3450px 30px;
+}
+.corpo9{
+	color: black;
+	font-family: 'Inter', sans-serif;
+	font-family: 'Playfair Display', serif;
+	font-size: 20px;
+	width: 925px;
+	height: 168px;
+	margin: 3495px 30px;
+	text-align: justify;
+	position: absolute
+}
+.img8{
+	position: absolute;
+	width: 925px;
+	height: 406px;
+	left: 447px;
+	top: 4100px;
+}
+.sub8{
+	position: absolute;
+	width: 931px;
+	height: 64px;
+	color: black;
+	font-family: 'Inter', sans-serif;
+	font-family: 'Playfair Display', serif;
+	font-size: 30px;
+	margin: 4105px 30px;
+}
+.img9{
+	position: absolute;
+	width: 785px;
+	height: 524px;
+	left: 447px;
+	top: 4695px;
+}
