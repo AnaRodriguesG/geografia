@@ -9,7 +9,8 @@
 }
 body {
 	background: var(--cor-fundo);
-	width: 1518px;
+	width: 100%;
+	margin-top: 0px;
 }
 
 header{
@@ -17,7 +18,7 @@ header{
 	width: 100%;
 	height: 120px;
 	background: linear-gradient(180deg, #28D3EB 0%, rgba(53, 149, 219, 0.51) 100%);
-	margin-top: 0px;	
+	margin-top: -16px;	
 }
 .txt1{
 	position: absolute;
@@ -321,4 +322,10 @@ button{
 	border-radius: 8px;
 	margin-left: 582px;
 	margin-top: 11px;
+}
+.div1{
+	margin-top: 15px;
+	width: 100%;
+	height: 50px;
+	background: var(--cor-fundo);
 }
