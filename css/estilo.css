@@ -31,7 +31,7 @@ header{
 	position: absolute;
 	background: var(--cor-fundo1);
 	width: 1019px;
-	height: 5300px;
+	height: 5500px;
 	margin-left: 398px;
 	margin-top: 140px;
 	padding-bottom: 50px;
@@ -283,5 +283,42 @@ a{
 	position: absolute;
 	margin: 5273px 447px;
 	font-size: 22px;
-    color: #99ffec;
+    color: black;
+}
+.bot1{
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	padding: 16px;
+	gap: 16px;
+	position: relative;
+	width: 939px;
+	height: 118px;
+	left: 28px;
+	top: 4890px;
+	background: rgba(40, 211, 235, 0.8);
+	border-radius: 8px;
+}
+.textbt{
+	position: absolute;
+	width: 584px;
+	height: 129px;
+	color: white;
+	font-family: 'Inter', sans-serif;
+	font-family: 'Playfair Display', serif;
+	font-size: 24px;
+	margin: 25px ;
+}
+button{
+	align-items: flex-start;
+	padding: 16px;
+	gap: 16px;
+	position: absolute;
+	width: 340px;
+	height: 93px;
+	background: #B5F2FB;
+	border: 1px solid #19BED6;
+	border-radius: 8px;
+	left: 582px;
+	margin-top: 11px;
 }
