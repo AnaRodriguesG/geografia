@@ -279,7 +279,7 @@ header{
 	left: 447px;
 	top: 4695px;
 }
-a{
+.a1{
 	position: absolute;
 	margin: 5273px 447px;
 	font-size: 22px;
@@ -294,7 +294,7 @@ a{
 	position: relative;
 	width: 939px;
 	height: 118px;
-	left: 28px;
+	margin-left: 28px;
 	top: 4890px;
 	background: rgba(40, 211, 235, 0.8);
 	border-radius: 8px;
@@ -319,6 +319,6 @@ button{
 	background: #B5F2FB;
 	border: 1px solid #19BED6;
 	border-radius: 8px;
-	left: 582px;
+	margin-left: 582px;
 	margin-top: 11px;
 }
