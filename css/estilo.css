@@ -30,7 +30,7 @@ header{
 .centro{
 	position: absolute;
 	background: var(--cor-fundo1);
-	width: 1027px;
+	width: 1019px;
 	height: 5936px;
 	margin-left: 398px;
 	margin-top: 140px;
@@ -269,7 +269,7 @@ header{
 	color: black;
 	font-family: 'Inter', sans-serif;
 	font-family: 'Playfair Display', serif;
-	font-size: 30px;
+	font-size: 24px;
 	margin: 4105px 30px;
 }
 .img9{
@@ -278,4 +278,10 @@ header{
 	height: 524px;
 	left: 447px;
 	top: 4695px;
+}
+a{
+	position: absolute;
+	margin: 5273px 447px;
+	font-size: 22px;
+    color: #99ffec;
 }
