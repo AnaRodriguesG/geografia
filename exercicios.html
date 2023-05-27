@@ -6,6 +6,8 @@
 	<title>Exercicios e video aula!</title>
 	<link rel="stylesheet" type="text/css" href="css/estilo1.css">
 	<link rel="shortcut icon" type="image/x-icon" href="imagens/logo.png">
+	<script src="javascript/script.js"></script>
+	 
 </head>
 <body>
 <header>
@@ -13,5 +15,88 @@
 		<img src="imagens/logo.png" alt="">
 	</div>
 </header>
+<main>
+    <div class="vid">
+		<h1 class="titulo1">
+			Video Aula
+		</h1>
+		<video src="imagens/Domínios Morfoclimáticos - Brasil Escola.mp4" autoplay controls poster="imagens/image 8.png"></video>
+	</div>	
+
+
+<form id="quizForm">
+    <h2>Pergunta 1:</h2>
+    <p>Por que o céu é azul?</p>
+    <input type="radio" name="resposta1" value="a" id="resposta1-a">
+    <label for="resposta1-a">a) A dispersão da luz do sol pelas moléculas de ar.</label>
+    <input type="radio" name="resposta1" value="b" id="resposta1-b">
+    <label for="resposta1-b">b) A absorção da luz solar pelas nuvens.</label>
+    <input type="radio" name="resposta1" value="c" id="resposta1-c">
+    <label for="resposta1-c">c) A reflexão da luz da Lua.</label>
+    <input type="radio" name="resposta1" value="d" id="resposta1-d">
+    <label for="resposta1-d">d) A emissão de luz pelo próprio céu.</label>
+    <button type="button" onclick="mostrarResposta('resposta1', 'a')">Mostrar Resposta</button>
+    <div id="explicacao1" class="explicacao-div"></div>
+
+    <h2>Pergunta 2:</h2>
+    <p>Qual é o maior planeta do Sistema Solar?</p>
+    <input type="radio" name="resposta2" value="a" id="resposta2-a">
+    <label for="resposta2-a">a) Júpiter</label>
+    <input type="radio" name="resposta2" value="b" id="resposta2-b">
+    <label for="resposta2-b">b) Marte</label>
+    <input type="radio" name="resposta2" value="c" id="resposta2-c">
+    <label for="resposta2-c">c) Terra</label>
+    <input type="radio" name="resposta2" value="d" id="resposta2-d">
+    <label for="resposta2-d">d) Vênus</label>
+    <button type="button" onclick="mostrarResposta('resposta2', 'a')">Mostrar Resposta</button>
+    <div id="explicacao2" class="explicacao-div"></div>
+
+    <h2>Pergunta 3:</h2>
+    <p>Qual é o símbolo químico do ouro?</p>
+    <input type="radio" name="resposta3" value="a" id="resposta3-a">
+    <label for="resposta3-a">a) Ag</label>
+    <input type="radio" name="resposta3" value="b" id="resposta3-b">
+    <label for="resposta3-b">b) Au</label>
+    <input type="radio" name="resposta3" value="c" id="resposta3-c">
+    <label for="resposta3-c">c) Fe</label>
+    <input type="radio" name="resposta3" value="d" id="resposta3-d">
+    <label for="resposta3-d">d) Hg</label>
+    <button type="button" onclick="mostrarResposta('resposta3', 'b')">Mostrar Resposta</button>
+    <div id="explicacao3" class="explicacao-div"></div>
+
+    <h2>Pergunta 4:</h2>
+    <p>Qual é o maior oceano do mundo?</p>
+    <input type="radio" name="resposta4" value="a" id="resposta4-a">
+    <label for="resposta4-a">a) Oceano Atlântico</label>
+    <input type="radio" name="resposta4" value="b" id="resposta4-b">
+    <label for="resposta4-b">b) Oceano Índico</label>
+    <input type="radio" name="resposta4" value="c" id="resposta4-c">
+    <label for="resposta4-c">c) Oceano Ártico</label>
+    <input type="radio" name="resposta4" value="d" id="resposta4-d">
+    <label for="resposta4-d">d) Oceano Pacífico</label>
+    <button type="button" onclick="mostrarResposta('resposta4', 'd')">Mostrar Resposta</button>
+    <div id="explicacao4" class="explicacao-div"></div>
+
+    <h2>Pergunta 5:</h2>
+    <p>Qual é a capital da França?</p>
+    <input type="radio" name="resposta5" value="a" id="resposta5-a">
+    <label for="resposta5-a">a) Roma</label>
+    <input type="radio" name="resposta5" value="b" id="resposta5-b">
+    <label for="resposta5-b">b) Madrid</label>
+    <input type="radio" name="resposta5" value="c" id="resposta5-c">
+    <label for="resposta5-c">c) Paris</label>
+    <input type="radio" name="resposta5" value="d" id="resposta5-d">
+    <label for="resposta5-d">d) Berlim</label>
+    <button type="button" onclick="mostrarResposta('resposta5', 'c')">Mostrar Resposta</button>
+    <div id="explicacao5" class="explicacao-div"></div>
+
+    <button type="button" onclick="verificarRespostas()">Verificar Respostas</button>
+  </form>
+
+  <h2>Explicações:</h2>
+  <div id="explicacoes"></div>
+
+
+</main>
 </body>
 </html>
