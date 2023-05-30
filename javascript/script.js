@@ -27,9 +27,9 @@
       var explicacao1 = document.createElement('div');
       explicacao1.className = 'explicacao-div';
       if (resposta1Selecionada && resposta1Selecionada.value === 'a') {
-        explicacao1.innerHTML = 'Correto! A dispersão da luz do sol pelas moléculas de ar é o que torna o céu azul.';
+        explicacao1.innerHTML = 'Correto! No domínio amazônico, as chuvas são de convecção, em razão da umidade produzida pela evapotranspiração que ascende à atmosfera com o ar quente, onde ocorrem a condensação e a precipitação.';
       } else {
-        explicacao1.innerHTML = 'Incorreto! A resposta correta é a letra \'a\'. A dispersão da luz do sol pelas moléculas de ar é o que torna o céu azul.';
+        explicacao1.innerHTML = 'Incorreto! A resposta correta é a letra \'a\'. No domínio amazônico, as chuvas são de convecção, em razão da umidade produzida pela evapotranspiração que ascende à atmosfera com o ar quente, onde ocorrem a condensação e a precipitação..';
       }
       explicacoesDiv.appendChild(explicacao1);
 
@@ -40,10 +40,10 @@
       }
       var explicacao2 = document.createElement('div');
       explicacao2.className = 'explicacao-div';
-      if (resposta2Selecionada && resposta2Selecionada.value === 'a') {
+      if (resposta2Selecionada && resposta2Selecionada.value === 'b') {
         explicacao2.innerHTML = 'Correto! Júpiter é o maior planeta do Sistema Solar.';
       } else {
-        explicacao2.innerHTML = 'Incorreto! A resposta correta é a letra \'a\'. Júpiter é o maior planeta do Sistema Solar.';
+        explicacao2.innerHTML = 'Incorreto! A resposta correta é a letra \'b\'. Júpiter é o maior planeta do Sistema Solar.';
       }
       explicacoesDiv.appendChild(explicacao2);
 
@@ -54,10 +54,10 @@
       }
       var explicacao3 = document.createElement('div');
       explicacao3.className = 'explicacao-div';
-      if (resposta3Selecionada && resposta3Selecionada.value === 'b') {
-        explicacao3.innerHTML = 'Correto! O símbolo químico do ouro é "Au".';
+      if (resposta3Selecionada && resposta3Selecionada.value === 'd') {
+        explicacao3.innerHTML = 'Correto! Uma das principais características da floresta amazônica é a existência de árvores com folhas largas e grandes (latifoliadas), de elevada densidade, que não perdem as folhas no outono (perene) e que são adaptadas à água (hidrófilas). No entanto, a fitofisionomia desse domínio morfoclimático não conta com a presença de vegetação herbácea (arbustiva), típica de outros biomas brasileiros.';
       } else {
-        explicacao3.innerHTML = 'Incorreto! A resposta correta é a letra \'b\'. O símbolo químico do ouro é "Au".';
+        explicacao3.innerHTML = 'Incorreto! A resposta correta é a letra \'d\'. Uma das principais características da floresta amazônica é a existência de árvores com folhas largas e grandes (latifoliadas), de elevada densidade, que não perdem as folhas no outono (perene) e que são adaptadas à água (hidrófilas). No entanto, a fitofisionomia desse domínio morfoclimático não conta com a presença de vegetação herbácea (arbustiva), típica de outros biomas brasileiros.';
       }
       explicacoesDiv.appendChild(explicacao3);
 
