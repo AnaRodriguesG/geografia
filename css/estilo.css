@@ -32,10 +32,11 @@ header{
 	position: absolute;
 	background: var(--cor-fundo1);
 	width: 1019px;
-	height: 5500px;
+	height: 5314px;
 	margin-left: 398px;
 	margin-top: 140px;
 	padding-bottom: 50px;
+	margin-bottom: 25px;
 }
 .titulo1{
 	color: black;
@@ -62,7 +63,7 @@ header{
 	width: 308px;
 	height: 320px;
 	left: 1078px;
-	top: 149px;
+	top: 179px;
 }
 .sub1{
 	color: black;
@@ -206,7 +207,7 @@ header{
 	width: 912px;
 	height: 422px;
 	left: 447px;
-	top: 2725px;
+	top: 2735px;
 }
 .sub6{
 	color: black;
@@ -328,4 +329,14 @@ button{
 	width: 1000px;
 	height: 50px;
 	background: var(--cor-fundo);
+}
+.lateral{
+	box-sizing: border-box;
+	position: absolute;
+	width: 358px;
+	height: 468px;
+	left: 20px;
+	top: 155px;
+	background: #FFFFFF;
+	border: 1px solid #23CAE1;
 }

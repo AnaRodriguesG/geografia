@@ -27,3 +27,14 @@ header{
 	margin-left: 499px;
 	text-align: center;
 }
+.vid{
+	box-sizing: border-box;
+	position: absolute;
+	width: 1350px;
+	height: 846px;
+	left: 48px;
+	top: 147px;
+	background: #FFFFFF;
+	border: 1px solid #23CAE1;
+	border-radius: 37px;
+}
