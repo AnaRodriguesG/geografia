@@ -32,7 +32,7 @@ header{
 	position: absolute;
 	width: 1350px;
 	height: 794px;
-	left: 48px;
+	left: 84px;
 	top: 147px;
 	background: #FFFFFF;
 	border: 1px solid #23CAE1;
@@ -57,7 +57,7 @@ video{
 	position: absolute;
 	width: 1350px;
 	height: 667px;
-	left: 48px;
+	left: 84px;
 	top: 1076px;
 	background: #FFFFFF;
 	border: 1px solid #23CAE1;
@@ -145,7 +145,7 @@ video{
 	position: absolute;
 	width: 1350px;
 	height: 530px;
-	left: 48px;
+	left: 84px;
 	top: 1885px;
 	background: #FFFFFF;
 	border: 1px solid #23CAE1;
@@ -156,7 +156,7 @@ video{
 	position: absolute;
 	width: 1350px;
 	height: 541px;
-	left: 48px;
+	left: 84px;
 	top: 2506px;
 	background: #FFFFFF;
 	border: 1px solid #23CAE1;
@@ -165,7 +165,7 @@ video{
 .pgtdiv4{
 	box-sizing: border-box;
 	margin-top: 3170px;
-	left: 38px;
+	left: 84px;
 	position: absolute;
 	width: 1356px;
 	height: 1347px;
@@ -177,8 +177,8 @@ video{
 	box-sizing: border-box;
 	position: absolute;
 	width: 1350px;
-	height: 265px;
-	left: 38px;
+	height: 495px;
+	left: 84px;
 	top: 4644px;
 	background: #FFFFFF;
 	border: 1px solid #23CAE1;
@@ -189,8 +189,8 @@ video{
 	position: absolute;
 	width: 1357px;
 	height: 304px;
-	left: 31px;
-	top: 4976px;
+	left: 84px;
+	top: 5176px;
 	background: #FFFFFF;
 	border: 1px solid #23CAE1;
 	border-radius: 37px;
@@ -393,4 +393,82 @@ video{
 	height: 46px;
 	background: rgba(40, 211, 235, 0.8);
 	border-radius: 8px;
+}
+.corpo9{
+	position: absolute;
+	width: 1275px;
+	height: 103px;
+	margin: 70px 24px;
+	color: black;
+	font-family: 'Inter', sans-serif;
+	font-family: 'Playfair Display', serif;
+	font-size: 22px;
+	text-align: justify;
+}
+.corpo10{
+	position: absolute;
+	width: 1275px;
+	height: 103px;
+	margin: 139px 24px;
+	color: black;
+	font-family: 'Inter', sans-serif;
+	font-family: 'Playfair Display', serif;
+	font-size: 22px;
+	text-align: justify;
+}
+.conjrep5{
+	margin:188px 56px;
+	color: black;
+	font-family: 'Inter', sans-serif;
+	font-family: 'Playfair Display', serif;
+	font-size: 22px;
+	text-align: justify;
+}
+.bt5{
+	position: absolute;
+	width: 179px;
+	height: 29px;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 0 auto;
+	line-height: 150%;
+	display: flex;
+	align-items: center;
+	border: 2px solid transparent;
+	text-align: center;
+	color: #FFFFFF;
+	padding: 16px;
+	gap: 16px;
+	position: absolute;
+	width: 165px;
+	height: 46px;
+	background: rgba(40, 211, 235, 0.8);
+	border-radius: 8px;
+}
+.btexpl{
+	position: absolute;
+	width: 179px;
+	height: 29px;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 700;
+	margin: 59px 29px;
+	font-size: 0 auto;
+	line-height: 150%;
+	display: flex;
+	align-items: center;
+	border: 2px solid transparent;
+	text-align: center;
+	color: #FFFFFF;
+	padding: 16px;
+	gap: 16px;
+	position: absolute;
+	width: 165px;
+	height: 46px;
+	background: rgba(40, 211, 235, 0.8);
+	border-radius: 8px;
+}
+#explicacoes{
+	margin: 123px 30px;
 }

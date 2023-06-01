@@ -123,24 +123,30 @@
 </div>
     
 <div class="pgtdiv5">
-    <h2 class="quest5">Pergunta 5:</h2>
-    <p>Qual é a capital da França?</p>
-    <input type="radio" name="resposta5" value="a" id="resposta5-a">
-    <label for="resposta5-a">a) Roma</label>
+    <h2 class="quest5">Questão 5</h2>
+    <p class="corpo9">(UFPB) O Brasil, por suas dimensões continentais, possui uma diversidade de domínios naturais. Dentre os principais, destaca-se o domínio Amazônico.</p>
+    <p class="corpo10">
+        Nesse sentido, é correto afirmar que são características físico-ambientais e econômicas do domínio Amazônico:
+    </p>
+    <div class="conjrep5">
+        <input type="radio" name="resposta5" value="a" id="resposta5-a">
+    <label for="resposta5-a">A) Maior domínio natural brasileiro / Solos pobres e de baixa fertilidade / Extração de essências medicinais.</label><br><br>
     <input type="radio" name="resposta5" value="b" id="resposta5-b">
-    <label for="resposta5-b">b) Madrid</label>
+    <label for="resposta5-b">B) Vegetação com folhas grossas e pequenas / Relevo pouco ondulado / Matas de restingas.</label><br><br>
     <input type="radio" name="resposta5" value="c" id="resposta5-c">
-    <label for="resposta5-c">c) Paris</label>
+    <label for="resposta5-c">C) Clima tropical e umidade alta / Maior domínio natural brasileiro / Relevo extremamente ondulado.</label><br><br>
     <input type="radio" name="resposta5" value="d" id="resposta5-d">
-    <label for="resposta5-d">d) Berlim</label>
-    <button type="button" onclick="mostrarResposta('resposta5', 'c')">Mostrar Resposta</button>
+    <label for="resposta5-d">D) Queimadas sem controle / Cultivo de monoculturas / Clima seco e baixa umidade.</label><br><br>
+    <button class="bt5" type="button" onclick="mostrarResposta('resposta5', 'c')">Mostrar Resposta</button>
     <div id="explicacao5" class="explicacao-div"></div>
+    </div>
+    
 </div>
     
 <div class="explic">
-    <button type="button" onclick="verificarRespostas()">Verificar Respostas</button> 
+    <button class="btexpl" type="button" onclick="verificarRespostas()">Verificar Respostas</button> 
     <h2 class="expli">Explicações:</h2>
-  <div id="explicacoes"></div>
+  <div class="explicacao" id="explicacoes"></div>
 
 </div>
     
