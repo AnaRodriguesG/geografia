@@ -120,6 +120,8 @@ video{
 	position: absolute;
 	width: 179px;
 	height: 29px;
+	text-align: center;
+	align-items: center;
 	font-family: 'Inter';
 	font-style: normal;
 	font-weight: 700;
@@ -127,13 +129,13 @@ video{
 	line-height: 150%;
 	display: flex;
 	align-items: center;
-	background-color: ;
+	border: 2px solid transparent;
 	text-align: center;
 	color: #FFFFFF;
 	padding: 16px;
 	gap: 16px;
 	position: absolute;
-	width: 246px;
+	width: 165px;
 	height: 46px;
 	background: rgba(40, 211, 235, 0.8);
 	border-radius: 8px;
@@ -282,13 +284,13 @@ video{
 	line-height: 150%;
 	display: flex;
 	align-items: center;
-	background-color: ;
+	border: 2px solid transparent;
 	text-align: center;
 	color: #FFFFFF;
 	padding: 16px;
 	gap: 16px;
 	position: absolute;
-	width: 246px;
+	width: 165px;
 	height: 46px;
 	background: rgba(40, 211, 235, 0.8);
 	border-radius: 8px;
@@ -320,7 +322,7 @@ video{
 	font-style: normal;
 	font-weight: 700;
 	font-size: 0 auto;
-	line-height: 150%;
+	border: 2px solid transparent;
 	display: flex;
 	align-items: center;
 	background-color: ;
@@ -329,7 +331,7 @@ video{
 	padding: 16px;
 	gap: 16px;
 	position: absolute;
-	width: 246px;
+	width: 165px;
 	height: 46px;
 	background: rgba(40, 211, 235, 0.8);
 	border-radius: 8px;
@@ -370,4 +372,25 @@ video{
 	font-size: 22px;
 	text-align: justify;
 }
-.bt
+.bt4{
+	position: absolute;
+	width: 179px;
+	height: 29px;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 0 auto;
+	line-height: 150%;
+	display: flex;
+	align-items: center;
+	border: 2px solid transparent;
+	text-align: center;
+	color: #FFFFFF;
+	padding: 16px;
+	gap: 16px;
+	position: absolute;
+	width: 165px;
+	height: 46px;
+	background: rgba(40, 211, 235, 0.8);
+	border-radius: 8px;
+}
