@@ -35,7 +35,7 @@
 
       // Pergunta 2
       var resposta2Selecionada = document.querySelector('input[name="resposta2"]:checked');
-      if (resposta2Selecionada && resposta2Selecionada.value === 'a') {
+      if (resposta2Selecionada && resposta2Selecionada.value === 'b') {
         respostasCorretas++;
       }
       var explicacao2 = document.createElement('div');
@@ -49,15 +49,15 @@
 
       // Pergunta 3
       var resposta3Selecionada = document.querySelector('input[name="resposta3"]:checked');
-      if (resposta3Selecionada && resposta3Selecionada.value === 'b') {
+      if (resposta3Selecionada && resposta3Selecionada.value === 'e') {
         respostasCorretas++;
       }
       var explicacao3 = document.createElement('div');
       explicacao3.className = 'explicacao-div';
-      if (resposta3Selecionada && resposta3Selecionada.value === 'b') {
+      if (resposta3Selecionada && resposta3Selecionada.value === 'e') {
         explicacao3.innerHTML = 'Correto! Uma das principais características da floresta amazônica é a existência de árvores com folhas largas e grandes (latifoliadas), de elevada densidade, que não perdem as folhas no outono (perene) e que são adaptadas à água (hidrófilas). No entanto, a fitofisionomia desse domínio morfoclimático não conta com a presença de vegetação herbácea (arbustiva), típica de outros biomas brasileiros.';
       } else {
-        explicacao3.innerHTML = 'Incorreto! A resposta correta é a letra \'d\'. O símbolo químico do ouro é "Au".';
+        explicacao3.innerHTML = 'Incorreto! A resposta correta é a letra \'e\'.Uma das principais características da floresta amazônica é a existência de árvores com folhas largas e grandes (latifoliadas), de elevada densidade, que não perdem as folhas no outono (perene) e que são adaptadas à água (hidrófilas). No entanto, a fitofisionomia desse domínio morfoclimático não conta com a presença de vegetação herbácea (arbustiva), típica de outros biomas brasileiros.';
       }
       explicacoesDiv.appendChild(explicacao3);
 
@@ -69,7 +69,7 @@
       var explicacao4 = document.createElement('div');
       explicacao4.className = 'explicacao-div';
       if (resposta4Selecionada && resposta4Selecionada.value === 'd') {
-        explicacao4.innerHTML = 'Correto! O oceano Pacífico é o maior oceano do mundo.';
+        explicacao4.innerHTML = 'Correto! Os três extratos da Floresta Amazônica apresentam diferentes tipos de vegetação:na mata de igapó, predominam as espécies que se desenvolvem com a presença constante de água; na mata de várzea, as espécies se adaptam às enchentes temporárias (assim como ocorre na mata de igapó, a vegetação é de menor porte);na mata de terra firme, onde não ocorrem inundações, desenvolve-se uma vegetação de maior porte e densa.';
       } else {
         explicacao4.innerHTML = 'Incorreto! A resposta correta é a letra \'d\'. O oceano Pacífico é o maior oceano do mundo.';
       }
