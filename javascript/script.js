@@ -35,29 +35,29 @@
 
       // Pergunta 2
       var resposta2Selecionada = document.querySelector('input[name="resposta2"]:checked');
-      if (resposta2Selecionada && resposta2Selecionada.value === 'b') {
+      if (resposta2Selecionada && resposta2Selecionada.value === 'a') {
         respostasCorretas++;
       }
       var explicacao2 = document.createElement('div');
       explicacao2.className = 'explicacao-div';
       if (resposta2Selecionada && resposta2Selecionada.value === 'b') {
-        explicacao2.innerHTML = 'Correto! As áreas onde a fertilidade natural dos solos amazônicos manifesta-se é restrita aos solos de várzea, que são periodicamente inundados e recebem uma grande quantidade de nutrientes orgânicos.';
+        explicacao2.innerHTML = 'Correto! Júpiter é o maior planeta do Sistema Solar.';
       } else {
-        explicacao2.innerHTML = 'Incorreto! A resposta correta é a letra \'b\'. As áreas onde a fertilidade natural dos solos amazônicos manifesta-se é restrita aos solos de várzea, que são periodicamente inundados e recebem uma grande quantidade de nutrientes orgânicos.';
+        explicacao2.innerHTML = 'Incorreto! A resposta correta é a letra \'b\'. Júpiter é o maior planeta do Sistema Solar.';
       }
       explicacoesDiv.appendChild(explicacao2);
 
       // Pergunta 3
       var resposta3Selecionada = document.querySelector('input[name="resposta3"]:checked');
-      if (resposta3Selecionada && resposta3Selecionada.value === 'e') {
+      if (resposta3Selecionada && resposta3Selecionada.value === 'b') {
         respostasCorretas++;
       }
       var explicacao3 = document.createElement('div');
       explicacao3.className = 'explicacao-div';
-      if (resposta3Selecionada && resposta3Selecionada.value === 'e') {
+      if (resposta3Selecionada && resposta3Selecionada.value === 'b') {
         explicacao3.innerHTML = 'Correto! Uma das principais características da floresta amazônica é a existência de árvores com folhas largas e grandes (latifoliadas), de elevada densidade, que não perdem as folhas no outono (perene) e que são adaptadas à água (hidrófilas). No entanto, a fitofisionomia desse domínio morfoclimático não conta com a presença de vegetação herbácea (arbustiva), típica de outros biomas brasileiros.';
       } else {
-        explicacao3.innerHTML = 'Incorreto! A resposta correta é a letra \'e\'. Uma das principais características da floresta amazônica é a existência de árvores com folhas largas e grandes (latifoliadas), de elevada densidade, que não perdem as folhas no outono (perene) e que são adaptadas à água (hidrófilas). No entanto, a fitofisionomia desse domínio morfoclimático não conta com a presença de vegetação herbácea (arbustiva), típica de outros biomas brasileiros.';
+        explicacao3.innerHTML = 'Incorreto! A resposta correta é a letra \'d\'. O símbolo químico do ouro é "Au".';
       }
       explicacoesDiv.appendChild(explicacao3);
 
@@ -69,7 +69,7 @@
       var explicacao4 = document.createElement('div');
       explicacao4.className = 'explicacao-div';
       if (resposta4Selecionada && resposta4Selecionada.value === 'd') {
-        explicacao4.innerHTML = 'Correto!, ';
+        explicacao4.innerHTML = 'Correto! O oceano Pacífico é o maior oceano do mundo.';
       } else {
         explicacao4.innerHTML = 'Incorreto! A resposta correta é a letra \'d\'. O oceano Pacífico é o maior oceano do mundo.';
       }
