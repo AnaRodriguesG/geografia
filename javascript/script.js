@@ -69,11 +69,8 @@
       var explicacao4 = document.createElement('div');
       explicacao4.className = 'explicacao-div';
       if (resposta4Selecionada && resposta4Selecionada.value === 'd') {
-        explicacao4.innerHTML = 'Correto!, Os três extratos da Floresta Amazônica apresentam diferentes tipos de vegetação:
-        na mata de igapó, predominam as espécies que se desenvolvem com a presença constante de água;
-        na mata de várzea, as espécies se adaptam às enchentes temporárias (assim como ocorre na mata de igapó, a vegetação é de menor porte);
-        na mata de terra firme, onde não ocorrem inundações, desenvolve-se uma vegetação de maior porte e densa.';
-              } else {
+        explicacao4.innerHTML = 'Correto!, ';
+      } else {
         explicacao4.innerHTML = 'Incorreto! A resposta correta é a letra \'d\'. O oceano Pacífico é o maior oceano do mundo.';
       }
       explicacoesDiv.appendChild(explicacao4);
