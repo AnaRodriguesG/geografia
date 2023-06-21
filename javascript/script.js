@@ -41,9 +41,9 @@
       var explicacao2 = document.createElement('div');
       explicacao2.className = 'explicacao-div';
       if (resposta2Selecionada && resposta2Selecionada.value === 'b') {
-        explicacao2.innerHTML = 'Correto! Júpiter é o maior planeta do Sistema Solar.';
+        explicacao2.innerHTML = 'Correto! As áreas onde a fertilidade natural dos solos amazônicos manifesta-se é restrita aos solos de várzea, que são periodicamente inundados e recebem uma grande quantidade de nutrientes orgânicos.';
       } else {
-        explicacao2.innerHTML = 'Incorreto! A resposta correta é a letra \'b\'. Júpiter é o maior planeta do Sistema Solar.';
+        explicacao2.innerHTML = 'Incorreto! A resposta correta é a letra \'b\'. As áreas onde a fertilidade natural dos solos amazônicos manifesta-se é restrita aos solos de várzea, que são periodicamente inundados e recebem uma grande quantidade de nutrientes orgânicos.';
       }
       explicacoesDiv.appendChild(explicacao2);
 
@@ -82,10 +82,10 @@
       }
       var explicacao5 = document.createElement('div');
       explicacao5.className = 'explicacao-div';
-      if (resposta5Selecionada && resposta5Selecionada.value === 'c') {
-        explicacao5.innerHTML = 'Correto! A capital da França é Paris.';
+      if (resposta5Selecionada && resposta5Selecionada.value === 'a') {
+        explicacao5.innerHTML = 'Correto! O domínio amazônico é a maior unidade paisagística do território nacional, e é caracterizado por solos pobres em nutrientes e uma grande variedade de espécies animais e vegetais, o que inclui plantas com propriedades medicinais.';
       } else {
-        explicacao5.innerHTML = 'Incorreto! A resposta correta é a letra \'c\'. A capital da França é Paris.';
+        explicacao5.innerHTML = 'Incorreto! A resposta correta é a letra \'a\'. O domínio amazônico é a maior unidade paisagística do território nacional, e é caracterizado por solos pobres em nutrientes e uma grande variedade de espécies animais e vegetais, o que inclui plantas com propriedades medicinais.';
       }
       explicacoesDiv.appendChild(explicacao5);
 
