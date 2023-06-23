@@ -340,3 +340,51 @@ button{
 	background: #FFFFFF;
 	border: 1px solid #23CAE1;
 }
+.lat1{
+	color: #000;
+text-align: justify;
+font-size: 24px;
+font-family: Playfair Display;
+font-weight: 700;
+display: flex;
+width: 325px;
+height: 37px;
+flex-direction: column;
+margin: 15px 15px;
+}
+.lat2{
+	color: #000;
+text-align: justify;
+font-size: 24px;
+font-family: Playfair Display;
+font-weight: 700;
+display: flex;
+width: 320px;
+height: 56px;
+flex-direction: column;
+margin: 15px 15px;
+}
+.lat3{
+	display: flex;
+width: 303px;
+height: 37px;
+flex-direction: column;
+color: #000;
+text-align: justify;
+font-size: 24px;
+font-family: Playfair Display;
+font-weight: 700;
+margin: 15px 15px;
+}
+.topc{
+	display: flex;
+width: 303px;
+height: 37px;
+flex-direction: column;
+color: #000;
+text-align: justify;
+font-size: 24px;
+font-family: Playfair Display;
+font-weight: 700;
+margin: 15px 15px;
+}
