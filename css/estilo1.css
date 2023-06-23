@@ -188,9 +188,9 @@ video{
 	box-sizing: border-box;
 	position: absolute;
 	width: 1357px;
-	height: 304px;
+	height: 355px;
 	left: 84px;
-	top: 5176px;
+	top: 4638px;
 	background: #FFFFFF;
 	border: 1px solid #23CAE1;
 	border-radius: 37px;
@@ -439,6 +439,7 @@ video{
 	text-align: center;
 	color: #FFFFFF;
 	padding: 16px;
+	margin: 63px 30px;
 	gap: 16px;
 	position: absolute;
 	width: 165px;

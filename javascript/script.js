@@ -27,9 +27,9 @@
       var explicacao1 = document.createElement('div');
       explicacao1.className = 'explicacao-div';
       if (resposta1Selecionada && resposta1Selecionada.value === 'a') {
-        explicacao1.innerHTML = 'Correto! No domínio amazônico, as chuvas são de convecção, em razão da umidade produzida pela evapotranspiração que ascende à atmosfera com o ar quente, onde ocorrem a condensação e a precipitação.';
+        explicacao1.innerHTML = '-Correto! No domínio amazônico, as chuvas são de convecção, em razão da umidade produzida pela evapotranspiração que ascende à atmosfera com o ar quente, onde ocorrem a condensação e a precipitação.';
       } else {
-        explicacao1.innerHTML = 'Incorreto! A resposta correta é a letra \'a\'. No domínio amazônico, as chuvas são de convecção, em razão da umidade produzida pela evapotranspiração que ascende à atmosfera com o ar quente, onde ocorrem a condensação e a precipitação..';
+        explicacao1.innerHTML = '-Incorreto! A resposta correta é a letra \'a\'. No domínio amazônico, as chuvas são de convecção, em razão da umidade produzida pela evapotranspiração que ascende à atmosfera com o ar quente, onde ocorrem a condensação e a precipitação..';
       }
       explicacoesDiv.appendChild(explicacao1);
 
@@ -41,9 +41,9 @@
       var explicacao2 = document.createElement('div');
       explicacao2.className = 'explicacao-div';
       if (resposta2Selecionada && resposta2Selecionada.value === 'b') {
-        explicacao2.innerHTML = 'Correto! As áreas onde a fertilidade natural dos solos amazônicos manifesta-se é restrita aos solos de várzea, que são periodicamente inundados e recebem uma grande quantidade de nutrientes orgânicos.';
+        explicacao2.innerHTML = '-Correto! As áreas onde a fertilidade natural dos solos amazônicos manifesta-se é restrita aos solos de várzea, que são periodicamente inundados e recebem uma grande quantidade de nutrientes orgânicos.';
       } else {
-        explicacao2.innerHTML = 'Incorreto! A resposta correta é a letra \'b\'. As áreas onde a fertilidade natural dos solos amazônicos manifesta-se é restrita aos solos de várzea, que são periodicamente inundados e recebem uma grande quantidade de nutrientes orgânicos.';
+        explicacao2.innerHTML = '-Incorreto! A resposta correta é a letra \'b\'. As áreas onde a fertilidade natural dos solos amazônicos manifesta-se é restrita aos solos de várzea, que são periodicamente inundados e recebem uma grande quantidade de nutrientes orgânicos.';
       }
       explicacoesDiv.appendChild(explicacao2);
 
@@ -55,9 +55,9 @@
       var explicacao3 = document.createElement('div');
       explicacao3.className = 'explicacao-div';
       if (resposta3Selecionada && resposta3Selecionada.value === 'e') {
-        explicacao3.innerHTML = 'Correto! Uma das principais características da floresta amazônica é a existência de árvores com folhas largas e grandes (latifoliadas), de elevada densidade, que não perdem as folhas no outono (perene) e que são adaptadas à água (hidrófilas). No entanto, a fitofisionomia desse domínio morfoclimático não conta com a presença de vegetação herbácea (arbustiva), típica de outros biomas brasileiros.';
+        explicacao3.innerHTML = '-Correto! Uma das principais características da floresta amazônica é a existência de árvores com folhas largas e grandes (latifoliadas), de elevada densidade, que não perdem as folhas no outono (perene) e que são adaptadas à água (hidrófilas). No entanto, a fitofisionomia desse domínio morfoclimático não conta com a presença de vegetação herbácea (arbustiva), típica de outros biomas brasileiros.';
       } else {
-        explicacao3.innerHTML = 'Incorreto! A resposta correta é a letra \'e\'.Uma das principais características da floresta amazônica é a existência de árvores com folhas largas e grandes (latifoliadas), de elevada densidade, que não perdem as folhas no outono (perene) e que são adaptadas à água (hidrófilas). No entanto, a fitofisionomia desse domínio morfoclimático não conta com a presença de vegetação herbácea (arbustiva), típica de outros biomas brasileiros.';
+        explicacao3.innerHTML = '-Incorreto! A resposta correta é a letra \'e\'.Uma das principais características da floresta amazônica é a existência de árvores com folhas largas e grandes (latifoliadas), de elevada densidade, que não perdem as folhas no outono (perene) e que são adaptadas à água (hidrófilas). No entanto, a fitofisionomia desse domínio morfoclimático não conta com a presença de vegetação herbácea (arbustiva), típica de outros biomas brasileiros.';
       }
       explicacoesDiv.appendChild(explicacao3);
 
@@ -69,25 +69,12 @@
       var explicacao4 = document.createElement('div');
       explicacao4.className = 'explicacao-div';
       if (resposta4Selecionada && resposta4Selecionada.value === 'd') {
-        explicacao4.innerHTML = 'Correto! Os três extratos da Floresta Amazônica apresentam diferentes tipos de vegetação:na mata de igapó, predominam as espécies que se desenvolvem com a presença constante de água; na mata de várzea, as espécies se adaptam às enchentes temporárias (assim como ocorre na mata de igapó, a vegetação é de menor porte);na mata de terra firme, onde não ocorrem inundações, desenvolve-se uma vegetação de maior porte e densa.';
+        explicacao4.innerHTML = '-Correto! Os três extratos da Floresta Amazônica apresentam diferentes tipos de vegetação:na mata de igapó, predominam as espécies que se desenvolvem com a presença constante de água; na mata de várzea, as espécies se adaptam às enchentes temporárias (assim como ocorre na mata de igapó, a vegetação é de menor porte);na mata de terra firme, onde não ocorrem inundações, desenvolve-se uma vegetação de maior porte e densa.';
       } else {
-        explicacao4.innerHTML = 'Incorreto! A resposta correta é a letra \'d\'. Os três extratos da Floresta Amazônica apresentam diferentes tipos de vegetação:na mata de igapó, predominam as espécies que se desenvolvem com a presença constante de água; na mata de várzea, as espécies se adaptam às enchentes temporárias (assim como ocorre na mata de igapó, a vegetação é de menor porte);na mata de terra firme, onde não ocorrem inundações, desenvolve-se uma vegetação de maior porte e densa.';
+        explicacao4.innerHTML = '-Incorreto! A resposta correta é a letra \'d\'. Os três extratos da Floresta Amazônica apresentam diferentes tipos de vegetação:na mata de igapó, predominam as espécies que se desenvolvem com a presença constante de água; na mata de várzea, as espécies se adaptam às enchentes temporárias (assim como ocorre na mata de igapó, a vegetação é de menor porte);na mata de terra firme, onde não ocorrem inundações, desenvolve-se uma vegetação de maior porte e densa.';
       }
       explicacoesDiv.appendChild(explicacao4);
 
-      // Pergunta 5
-      var resposta5Selecionada = document.querySelector('input[name="resposta5"]:checked');
-      if (resposta5Selecionada && resposta5Selecionada.value === 'c') {
-        respostasCorretas++;
-      }
-      var explicacao5 = document.createElement('div');
-      explicacao5.className = 'explicacao-div';
-      if (resposta5Selecionada && resposta5Selecionada.value === 'a') {
-        explicacao5.innerHTML = 'Correto! O domínio amazônico é a maior unidade paisagística do território nacional, e é caracterizado por solos pobres em nutrientes e uma grande variedade de espécies animais e vegetais, o que inclui plantas com propriedades medicinais.';
-      } else {
-        explicacao5.innerHTML = 'Incorreto! A resposta correta é a letra \'a\'. O domínio amazônico é a maior unidade paisagística do território nacional, e é caracterizado por solos pobres em nutrientes e uma grande variedade de espécies animais e vegetais, o que inclui plantas com propriedades medicinais.';
-      }
-      explicacoesDiv.appendChild(explicacao5);
 
       var resultado = document.createElement('div');
       resultado.innerHTML = 'Você acertou ' + respostasCorretas + ' de 5 perguntas.';
